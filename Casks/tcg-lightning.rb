@@ -12,6 +12,12 @@ cask "tcg-lightning" do
 
   app "tcg-lightning.app"
 
+  postflight do
+    system_command "/usr/bin/xattr",
+                   args: ["-cr", "#{appdir}/tcg-lightning.app"],
+                   sudo: false
+  end
+
   zap trash: [
     "~/Library/Application Support/com.tcglightning.desktop",
     "~/Library/Caches/com.tcglightning.desktop",
