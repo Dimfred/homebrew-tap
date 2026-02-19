@@ -1,8 +1,8 @@
 class WhiteDragon < Formula
   desc "Lightweight macOS CLI tool for drag-and-drop from terminal"
   homepage "https://github.com/Dimfred/white-dragon"
-  url "https://github.com/Dimfred/white-dragon/archive/refs/tags/v0.1.1.tar.gz"
-  sha256 "87437fadf94fa2ca900277be047b7107c47fc7ce5b0a023a0f8b2ae4e5430416"
+  url "https://github.com/Dimfred/white-dragon/archive/refs/tags/v0.1.2.tar.gz"
+  sha256 "6eadd6388250712400dbd82dc9ff65585135500a8653fe88cfbd88428d39d383"
   license "MIT"
 
   depends_on :macos
