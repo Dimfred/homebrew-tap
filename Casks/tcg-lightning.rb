@@ -1,6 +1,6 @@
 cask "tcg-lightning" do
-  version "0.1.32"
-  sha256 "1dffe2c4a220717d1774194980ff8e6ca2ef089152bf376fb115293e4e63fd25"
+  version "0.1.33"
+  sha256 "2f484a866c36ee7a730cd0d793fa91147df6dfb24ba24d1f1dd5aa6d1830548e"
 
   url "https://github.com/Dimfred/tcg-lightning/releases/download/v#{version}/macos-tcg-lightning_#{version}_aarch64.dmg"
   name "TCG Lightning"
