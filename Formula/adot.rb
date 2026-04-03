@@ -1,20 +1,20 @@
 class Adot < Formula
   desc "A minimal dotfile manager"
   homepage "https://github.com/Dimfred/adot"
-  version "0.1.6"
+  version "0.1.8"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/Dimfred/adot/releases/download/v0.1.6/macos-adot-v0.1.6-arm64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/Dimfred/adot/releases/download/v0.1.8/macos-adot-v0.1.8-arm64"
+      sha256 "5c053c240f5a60d05d9fca00209cb862f6a3ee2b7f42131ace80d909ac4fe78d"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/Dimfred/adot/releases/download/v0.1.6/linux-adot-v0.1.6-x86_64"
-      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+      url "https://github.com/Dimfred/adot/releases/download/v0.1.8/linux-adot-v0.1.8-x86_64"
+      sha256 "8a206a167c6165a4aafbe506de9c422555fae9b83a263724b12d5b76cd842009"
     end
   end
 
