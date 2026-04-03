@@ -1,14 +1,25 @@
 class Adot < Formula
   desc "A minimal dotfile manager"
   homepage "https://github.com/Dimfred/adot"
-  url "https://github.com/Dimfred/adot/archive/refs/tags/v0.1.2.tar.gz"
-  sha256 "d5558cd419c8d46bdc958064cb97f963d1ea793866414c025906ec15033512ed"
+  version "0.1.5"
   license "MIT"
 
-  depends_on "rust" => :build
+  on_macos do
+    on_arm do
+      url "https://github.com/Dimfred/adot/releases/download/v0.1.2/macos-adot-v0.1.5-arm64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    end
+  end
+
+  on_linux do
+    on_intel do
+      url "https://github.com/Dimfred/adot/releases/download/v0.1.2/linux-adot-v0.1.5-x86_64"
+      sha256 "0019dfc4b32d63c1392aa264aed2253c1e0c2fb09216f8e2cc269bbfb8bb49b5"
+    end
+  end
 
   def install
-    system "cargo", "install", *std_cargo_args
+    bin.install Dir["*"].first => "adot"
   end
 
   test do
