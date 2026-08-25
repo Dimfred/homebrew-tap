@@ -7,7 +7,7 @@ cask "fit-sync" do
   desc "Sync .fit files to Garmin and other targets"
   homepage "https://github.com/Dimfred/fit-sync"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "fit-sync.app"

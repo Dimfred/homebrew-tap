@@ -7,7 +7,7 @@ cask "tcg-lightning-dev" do
   desc "AI Powered Deck Building App - Development Release"
   homepage "https://github.com/Dimfred/tcg-lightning"
 
-  depends_on macos: ">= :monterey"
+  depends_on macos: :monterey
   depends_on arch: :arm64
 
   app "tcg-lightning.app"
