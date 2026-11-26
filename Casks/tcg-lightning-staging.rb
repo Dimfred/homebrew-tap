@@ -1,6 +1,6 @@
 cask "tcg-lightning-staging" do
-  version "0.1.38-rc.4"
-  sha256 "53a17571271ad130ae671918ba79dff25d408423906edf38fe54feaa3c0d03e3"
+  version "0.1.38-rc.5"
+  sha256 "bd26d06704345280c11ee172e0441823d25f7b5af6f468e5556ea75ec2721dc4"
 
   url "https://github.com/Dimfred/tcg-lightning/releases/download/v#{version}/macos-tcg-lightning-staging_#{version}_aarch64.dmg"
   name "TCG Lightning (Staging)"
